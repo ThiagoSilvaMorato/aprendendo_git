@@ -33,3 +33,6 @@ git push origin "nome do branch"
 
 Clonar um repositório:
 git clone "link do repositório"
+
+Conectar o repositório a um servidor remoto:
+git remote add origin "servidor"
