@@ -1,0 +1,35 @@
+Criar um novo repositório:
+git init
+
+Criar um arquivo:
+touch "nome_do_arquivo.'tipo'"
+
+Criar uma pasta:
+mkdir "nome_da_pasta"
+
+Adicionar arquivo ao repositório:
+
+Para isso é necessário utilizar o comando "git add 'nome do arquivo'", para "preparar" os arquivos para serem
+commitados.
+
+Utilizar o comando "git commit -m "Comentário", para commitar os arquivos e adicionar um comentário pertinente
+às alterações realizadas no arquivo.
+
+Para finalizar, utilize o comando "git push origin 'branch'" para enviar o arquivo ao repositório. Na branch, 
+deve-se utilizar o nome do destino desejado ao commit. Geralmente é utilizado o "master", portanto o comando ficará:
+git push origin master.
+
+Criar um novo branch:
+git checkout -b "nome do branch"
+
+Navegar entre os branches:
+git checkout "nome do branch"
+
+Remover um branch:
+git branch -d "nome do branch"
+
+Adicionar o branch ao repositório:
+git push origin "nome do branch"
+
+Clonar um repositório:
+git clone "link do repositório"
